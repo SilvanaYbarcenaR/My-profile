@@ -9,12 +9,9 @@ var max=0;
       ( 
        "Front End Developer",    
        "Creative person",
-       "Perserverance person",
+       "Perseverance person",
        "Great ideas",
        "Motivation"
-
-
-
       );
       var x=0; pos=0;
       var l=tl[0].length;

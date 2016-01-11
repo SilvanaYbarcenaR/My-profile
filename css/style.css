@@ -236,6 +236,7 @@
 	height: 26px;
 	border-radius: 4px;
 	text-indent: -90000px;
+	overflow: hidden;
 	cursor: pointer;
 	opacity: 0.6;
 	margin-right: 3px;

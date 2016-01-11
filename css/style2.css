@@ -2,14 +2,27 @@ body{
 	margin:0;
 	padding: 0;
 }
+
+html,body{
+  height: 100%;
+  width: 100%;
+}
 a{
   text-decoration: none!important;
 }
+hr{
+  padding:50px 0;
+}
+.main_bg{
+  width: 100%;
+  height: 450px;
+}
+
  .ff video {
  position: absolute;
  top: 0px;
  
- 
+
 }
 
 .ff{
@@ -43,14 +56,6 @@ a{
 	width:100%;
 	height:100%;
 }
-body{
-	height: 29.7%;
-	width: 100%;	
-}
-html{
-	height: 100%;
-	width: 100%;
-}
 hr{
 	height: 10px;
 	background: rgba(0,0,0,0.6);
@@ -66,20 +71,25 @@ hr{
 	margin:20px 20px 0 0;
 	color:#47266B!important;
 }
-.star{
-	margin:10px 0;
+.line{
+	  margin:10px 0;
     padding: 0;
     border: 0;
     border-top: solid 4px;
     text-align: center;
-    width: 20%;
+    width: 15%;
     display: inline-block;
 }
 .coffee{
 	text-align: center;
 	margin:0 20px!important;
 	font-size: 30px!important;
-	
+}
+.divider{
+  margin:80px 0;
+}
+#about-me{
+  padding-top: 0;
 }
 .btn{
 	background: rgba(72,48,86,1)!important;
@@ -149,12 +159,32 @@ section #services li span {
 .fs-slider a{
 	color:white;
 }
-@media only screen and (max-width: 940px){
-  .quote{
-  display:none;
-    }
-
-.quote2{
-  margin-top:150px;
-  background: black;
+@media only screen and (max-width: 685px){
+  .coder{
+  display: none;
+  }
+  .nameanimation b{
+  font-size: 55px;
+  } 
 }
+@media only screen and (max-width: 426px){
+  .nameanimation b{
+  font-size: 50px;
+  } 
+  .maquina_de_escribir{
+    font-size: 25px!important;
+    width:230px!important;
+  }
+  .image{
+    height:150px!important;
+  }
+}
+@media only screen and (max-width: 364px){
+  .photo_line{
+    width:210px!important;
+  }
+  .photo{
+  margin-left:125px!important;
+  }
+}
+
